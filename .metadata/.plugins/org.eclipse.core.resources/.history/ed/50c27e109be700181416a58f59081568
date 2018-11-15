@@ -1,0 +1,9 @@
+package com.MavenCourse.maven;
+
+public class Application1 {
+
+	static void main(String[] args) {
+		System.out.println();
+	}
+	
+}

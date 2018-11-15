@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd ">
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>MavenExamples</artifactId>
+	<groupId>com.MavenCourse.maven</groupId>
+	<version>1.0.0</version>
+
+	<build>
+	    <plugins>
+	        <plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-resources-plugin</artifactId>
+	            <version>2.4</version>
+	        </plugin>
+	    </plugins>
+	</build>
+
+	<packaging>jar</packaging>
+	<name>Learn Maven with Examples</name>
+	<description>In this project we learn how to use maven information tags</description>
+	<url>https://maven.apache.org/</url>
+	
+	<licenses>
+		<license>
+			<name>GNU</name>
+			<comments>Published Software</comments>	
+		</license>
+	
+		<license>
+			<name>Apache License</name>
+			<comments>Apache License is a permissive free</comments>
+		</license>
+	</licenses>
+	
+	<organization>
+		<name>House</name>
+		<url>https://maven.apache.org/</url>
+	</organization>
+
+	<developers>
+		<developer>
+			<name>Rodrigo Martinho</name>
+			<roles>
+				<role>Java Developer</role>
+			</roles>
+			<email>rodrigo.martinho@gmail.com</email>
+		</developer>
+	</developers>
+			
+</project>

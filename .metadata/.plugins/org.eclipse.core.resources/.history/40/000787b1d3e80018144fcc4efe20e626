@@ -1,0 +1,21 @@
+package com.MavenCourse.maven;
+
+import java.util.Scanner;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Scanner input = new Scanner(System.in);
+        System.out.println( "Please Enter a URL:: " );
+    }
+    
+    
+    public static String attachPrefixOnUrl() {
+    	
+    }
+}
